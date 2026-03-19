@@ -14,7 +14,6 @@ SpecFlow 框架的前端部分，支持 **Flutter** 和 **React** 双选型。
 ## 项目结构
 
 ```
-specflow-frontend/
 ├── CLAUDE.md                  # 框架契约（含当前选型声明）
 ├── doc/
 │   ├── README.md              # 前端开发 SOP
@@ -25,6 +24,12 @@ specflow-frontend/
 │   ├── sf-frontend-review/    # 代码审核 Skill
 │   └── sf-frontend-test/      # 测试生成 Skill
 └── src/                       # 源码（由 Skill 生成）
+    ├── pages/                 # 页面 / 路由入口
+    ├── features/              # 业务模块（按领域划分，Skill 生成时填充）
+    ├── services/
+    │   └── http/              # HTTP client、拦截器、Token 注入
+    ├── shared/                # 跨模块共享组件、工具函数
+    └── models/                # 全局数据类型
 ```
 
 ## 关联项目

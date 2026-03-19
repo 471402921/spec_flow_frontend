@@ -17,6 +17,7 @@ SpecFlow 框架的前端部分，支持 **Flutter** 和 **React** 双选型。
 ├── CLAUDE.md                  # 框架契约（含当前选型声明）
 ├── doc/
 │   ├── README.md              # 前端开发 SOP
+│   ├── deploy.md              # 部署指南
 │   ├── requirements/          # PRD 和需求文档
 │   └── design/                # Tech Pack
 ├── .claude/skills/

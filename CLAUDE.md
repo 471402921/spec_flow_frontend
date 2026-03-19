@@ -7,7 +7,7 @@ SpecFlow Frontend 是 SpecFlow Spec-Driven / Agentic Engineering 框架的前端
 ## 当前选型
 
 ```
-当前选型：flutter
+当前选型：react
 ```
 
 ---
